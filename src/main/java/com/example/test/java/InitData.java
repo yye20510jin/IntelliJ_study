@@ -13,8 +13,8 @@ public class InitData implements CommandLineRunner {
 
     @Override
     public void run(String...args){
-        Member m = Member.builder().name("홍길동").age(25).email("test@example.com").build();
+        //Member m = Member.builder().name("홍길동").age(25).email("test@example.com").build();
 
-        memberRepository.save(m);
+        //memberRepository.save(m);
     }
 }
