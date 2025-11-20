@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+
+<form th:action="@{/login}" method="post" th:object="${loginDTO}">
+    <input type = "text" th:field="*{id}" placeholder="id"/>
+    <button type="submit">로그인</button>
+</form>
+
+</body>
+</html>
